@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>JSON Data</title>
+    <!-- <style>
+        table{
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        table, th, td{
+            border: 1px solid #cdcdcd;
+        }
+        table th, table td{
+            padding: 5px;
+            text-align: left;
+        }
+    </style> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+</head>
+
+<body>
+    <h1 id="">
+        If this shows, the Webpage is functional
+    </h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $.ajax({
+                type: "POST",
+                data: JSON.stringify({ "request": "get_restaurant_public_timing" }),
+                url: "https://www.royalambassador.ca/azarbod_api/api.php",
+                dataType: "json",
+                success: function (result, status, xhr) {
+                    console.log(result);
+                    var data = result["data"];
+                    var tableData = "<tr><th>Day</th><th>Open For</th><th>Timing</th></tr>";
+                    for (var i = 0; i < data.length; i++) {
+                        tableData += 
+                        "<tr><td>" + data[i]["day"] 
+                        + "</td><td>" + data[i]["open_for"] 
+                        + "</td><td>" + data[i]["timing"] 
+                        + "</td></tr>";
+                    }
+                    document.getElementById("dataTable").innerHTML = tableData;
+                },
+                error: function (xhr, status, error) {
+                    alert("Result: " + status + " " + error + " " + xhr.status + " " + xhr.statusText)
+                }
+            });
+
+        });
+
+    </script>
+    <table id="dataTable">
+        <h3> Online Wine Store </h3>
+    </table>
+</body>
+
+</html>
