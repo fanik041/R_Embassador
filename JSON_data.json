@@ -1,0 +1,18 @@
+{"outcome": "success", "data": [{"rest_sch_id": "33", "venue": "R", "day_of_week": "3", "day": "Wednesday", "open_for":
+"2", "open_for_name": "DINNER", "from_time": "12:00:00", "to_time": "18:00:00", "timing": "12:00pm to
+6:00pm"},{"rest_sch_id": "63", "venue": "B", "day_of_week": "3", "day": "Wednesday", "open_for": "2", "open_for_name":
+"DINNER", "from_time": "12:00:00", "to_time": "18:00:00", "timing": "12:00pm to 6:00pm"},{"rest_sch_id": "35", "venue":
+"R", "day_of_week": "4", "day": "Thursday", "open_for": "2", "open_for_name": "DINNER", "from_time": "12:00:00",
+"to_time": "18:00:00", "timing": "12:00pm to 6:00pm"},{"rest_sch_id": "64", "venue": "B", "day_of_week": "4", "day":
+"Thursday", "open_for": "2", "open_for_name": "DINNER", "from_time": "12:00:00", "to_time": "18:00:00", "timing":
+"12:00pm to 6:00pm"},{"rest_sch_id": "37", "venue": "R", "day_of_week": "5", "day": "Friday", "open_for": "2",
+"open_for_name": "DINNER", "from_time": "12:00:00", "to_time": "18:00:00", "timing": "12:00pm to
+6:00pm"},{"rest_sch_id": "65", "venue": "B", "day_of_week": "5", "day": "Friday", "open_for": "2", "open_for_name":
+"DINNER", "from_time": "12:00:00", "to_time": "18:00:00", "timing": "12:00pm to 6:00pm"},{"rest_sch_id": "61", "venue":
+"R", "day_of_week": "6", "day": "Saturday", "open_for": "2", "open_for_name": "DINNER", "from_time": "12:00:00",
+"to_time": "18:00:00", "timing": "12:00pm to 6:00pm"},{"rest_sch_id": "66", "venue": "B", "day_of_week": "6", "day":
+"Saturday", "open_for": "2", "open_for_name": "DINNER", "from_time": "12:00:00", "to_time": "18:00:00", "timing":
+"12:00pm to 6:00pm"},{"rest_sch_id": "62", "venue": "R", "day_of_week": "7", "day": "Sunday", "open_for": "2",
+"open_for_name": "DINNER", "from_time": "12:00:00", "to_time": "18:00:00", "timing": "12:00pm to
+6:00pm"},{"rest_sch_id": "67", "venue": "B", "day_of_week": "7", "day": "Sunday", "open_for": "2", "open_for_name":
+"DINNER", "from_time": "12:00:00", "to_time": "18:00:00", "timing": "12:00pm to 6:00pm"}]}
